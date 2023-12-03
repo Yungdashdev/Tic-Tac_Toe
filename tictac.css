@@ -1,0 +1,73 @@
+.cell{
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  line-height: 75px;
+  font-size: 50px;
+  cursor: pointer;
+  color:white;
+  font-size: 25px;
+}
+#gameContainer{
+  text-align: center;
+  color: white;
+  font-size:15px ;
+  font-family: 'Press Start 2P', cursive;
+}
+#cellContainer{
+  display: grid;
+  grid-template-columns:repeat(3, auto) ;
+  width: 235px;
+  margin: auto;
+}
+body{
+  background-color: black;
+}
+.cell.win {
+    background-color: #ffd700; 
+}
+.title{
+  font-size: 50px;
+  font-family: 'Press Start 2P', cursive;
+  text-align:center;
+  margin-top:6px ;
+}
+#restartBtn{
+  height: 50px;
+  width: 110px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Pixelify Sans', cursive;
+  font-weight: bold;
+  background-color: #FFB000;
+  margin-top: 20px;
+  color: black;
+  
+}
+.linkme{
+  font-family: 'Press Start 2P', cursive;
+  color:green;
+  font-size: 15px;
+}
+.p1{
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'Pixelify Sans', cursive;
+}
+#credit{
+  display: grid;
+  place-items: center;
+  margin-top: 40px;
+}
+#reloadBtn{
+  height: 50px;
+  width: 110px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-family: 'Pixelify Sans', cursive;
+  font-weight: bold;
+  background-color: #FFB000;
+  margin-top: 20px;
+  color: black;
+}
